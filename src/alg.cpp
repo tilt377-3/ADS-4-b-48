@@ -46,11 +46,9 @@ int countPairs3(int *arr, int len, int value) {
           j++;
         }
         break;
-      }
-      else if (arr[mid] < vtoroe) {
+      } else if (arr[mid] < vtoroe) {
         left = mid + 1;
-      }
-      else {
+      } else {
         right = mid - 1;
       }
     }
